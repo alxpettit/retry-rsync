@@ -1,0 +1,20 @@
+[package]
+name = "retry-rsync"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#cmd_lib = "1.3.0"
+#subprocess = "0.2.8"
+# config = "0.13.1"
+# glob = "0.3.0"
+toml = "0.5.9"
+serde = "1.0.137"
+serde_derive = "1.0.137"
+serde_with = "1.13.0"
+directories = "4.0.1"
+
+[[bin]]
+name = "retry-rsync"
